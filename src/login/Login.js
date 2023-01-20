@@ -25,7 +25,7 @@ const Login = () => {
     dispatch({ type: "LOGIN_START" });
     try {
       const res = await axios.post(
-        "https://sheikh-booking-backend.onrender.com/api/auth/login",
+        "hhttps://backend-3lkg.onrender.com/api/auth/login",
         credentials
       );
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data.details });
